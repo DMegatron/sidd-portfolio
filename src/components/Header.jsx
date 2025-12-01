@@ -28,7 +28,7 @@ const Header = () => {
         >
           <img 
             src="/Sidd.webp" 
-            alt="Siddhartha Bhunia" 
+            alt="Siddhartha Bhunia - Banking Professional" 
             className="w-10 h-10 rounded-full object-cover border-2 border-indigo-600 dark:border-cyan-400"
           />
           <span className="text-2xl font-bold text-indigo-600 dark:text-cyan-400">SB</span>

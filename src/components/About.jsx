@@ -43,7 +43,8 @@ const About = () => {
               <div className="absolute top-4 left-4 w-full h-full bg-white dark:bg-slate-900 rounded-2xl flex items-center justify-center shadow-2xl overflow-hidden">
                 <img 
                   src="/Sidd.webp" 
-                  alt="Siddhartha Bhunia" 
+                  alt="Siddhartha Bhunia - Assistant Bank Manager at Bandhan Bank" 
+                  loading="lazy"
                   className="w-full h-full object-cover"
                 />
               </div>
