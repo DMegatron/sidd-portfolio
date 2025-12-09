@@ -15,7 +15,7 @@ import FloatingButtons from './components/FloatingButtons';
 function App() {
   return (
     <ThemeProvider>
-      <div className="bg-indigo-50 dark:bg-slate-950 min-h-screen text-slate-900 dark:text-slate-50 font-sans transition-colors duration-300 relative">
+      <div className="bg-gradient-to-br from-[#E8E0F8] to-[#D8CDF3] dark:bg-slate-950 dark:bg-none min-h-screen text-slate-900 dark:text-slate-50 font-sans transition-colors duration-300 relative">
         <BackgroundAnimations />
         <div className="relative z-10">
           <Header />

@@ -44,7 +44,7 @@ const FloatingButtons = () => {
             exit={{ opacity: 0, x: 100 }}
             transition={{ duration: 0.3 }}
             onClick={scrollToContact}
-            className="group relative bg-indigo-600 dark:bg-cyan-400 text-white dark:text-slate-900 p-4 rounded-full shadow-lg hover:shadow-2xl hover:scale-110 transition-all duration-300"
+            className="group relative bg-purple-600 dark:bg-cyan-400 text-white dark:text-slate-900 p-4 rounded-full shadow-lg hover:shadow-2xl hover:scale-110 transition-all duration-300"
             aria-label="Contact Me"
           >
             <FaEnvelope className="text-xl" />

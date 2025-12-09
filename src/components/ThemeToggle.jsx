@@ -20,7 +20,7 @@ const ThemeToggle = () => {
           onClick={() => setTheme(option.value)}
           className={`p-2 rounded-full transition-colors duration-200 ${
             theme === option.value
-              ? 'bg-indigo-600 text-white dark:bg-cyan-600'
+              ? 'bg-purple-600 text-white dark:bg-cyan-600'
               : 'text-slate-500 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-700'
           }`}
           aria-label={`Switch to ${option.value} theme`}

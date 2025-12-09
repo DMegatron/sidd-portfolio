@@ -39,7 +39,7 @@ const About = () => {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="md:w-1/2 flex justify-center"
           >
-            <div className="relative w-64 h-64 md:w-80 md:h-80 border-2 border-indigo-600 dark:border-cyan-400 rounded-2xl rotate-3 hover:rotate-0 transition-transform duration-500">
+            <div className="relative w-64 h-64 md:w-80 md:h-80 border-2 border-purple-600 dark:border-cyan-400 rounded-2xl rotate-3 hover:rotate-0 transition-transform duration-500">
               <div className="absolute top-4 left-4 w-full h-full bg-white dark:bg-slate-900 rounded-2xl flex items-center justify-center shadow-2xl overflow-hidden">
                 <img 
                   src="/Sidd.webp" 

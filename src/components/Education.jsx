@@ -46,14 +46,16 @@ const Education = () => {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="bg-white dark:bg-slate-900 p-6 rounded-xl shadow-lg border-l-4 border-indigo-600 dark:border-cyan-400 border-t border-r border-b border-indigo-100 dark:border-slate-800 hover:transform hover:-translate-y-1 transition-all duration-300"
+              className="bg-white dark:bg-slate-900 p-6 rounded-xl shadow-lg border-l-4 border-purple-600 dark:border-cyan-400 border-t border-r border-b border-purple-200 dark:border-slate-800 hover:transform hover:-translate-y-1 transition-all duration-300 h-full flex flex-col"
             >
-              <div className="flex items-center mb-3">
-                <FaGraduationCap className="text-indigo-600 dark:text-cyan-400 text-2xl mr-3" />
-                <h3 className="text-lg font-bold text-slate-900 dark:text-slate-50">{edu.degree}</h3>
+              <div className="flex items-start mb-3 gap-3">
+                <FaGraduationCap className="text-purple-600 dark:text-cyan-400 text-2xl mt-1 shrink-0" />
+                <h3 className="text-lg font-bold text-slate-900 dark:text-slate-50 min-h-[3.5rem]">{edu.degree}</h3>
               </div>
-              <p className="text-slate-600 dark:text-slate-300 font-medium">{edu.institution}</p>
-              <p className="text-indigo-500 dark:text-cyan-500 text-sm mt-2 font-semibold">{edu.year}</p>
+              <div className="mt-auto">
+                <p className="text-slate-600 dark:text-slate-300 font-medium">{edu.institution}</p>
+                <p className="text-purple-600 dark:text-cyan-500 text-sm mt-2 font-semibold">{edu.year}</p>
+              </div>
             </motion.div>
           ))}
         </div>

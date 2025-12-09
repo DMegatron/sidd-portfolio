@@ -47,14 +47,14 @@ const Experience = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="bg-white dark:bg-slate-900 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 mb-8 border border-indigo-100 dark:border-slate-800 relative overflow-hidden group"
+              className="bg-white dark:bg-slate-900 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 mb-8 border border-purple-200 dark:border-slate-800 relative overflow-hidden group"
             >
-              <div className="absolute top-0 left-0 w-2 h-full bg-indigo-600 dark:bg-cyan-500 group-hover:w-3 transition-all duration-300"></div>
+              <div className="absolute top-0 left-0 w-2 h-full bg-purple-600 dark:bg-cyan-500 group-hover:w-3 transition-all duration-300"></div>
               <div className="flex items-center mb-6 pl-4">
-                <FaBriefcase className="text-indigo-600 dark:text-cyan-400 text-3xl mr-5" />
+                <FaBriefcase className="text-purple-600 dark:text-cyan-400 text-3xl mr-5" />
                 <div>
                   <h3 className="text-2xl font-bold text-slate-900 dark:text-slate-50">{exp.title}</h3>
-                  <p className="text-indigo-500 dark:text-cyan-500 font-semibold text-lg">{exp.company} | {exp.location}</p>
+                  <p className="text-purple-600 dark:text-cyan-500 font-semibold text-lg">{exp.company} | {exp.location}</p>
                   <p className="text-slate-500 dark:text-slate-400 text-sm mt-1">{exp.period}</p>
                 </div>
               </div>

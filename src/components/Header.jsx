@@ -29,9 +29,9 @@ const Header = () => {
           <img 
             src="/Sidd.webp" 
             alt="Siddhartha Bhunia - Banking Professional" 
-            className="w-10 h-10 rounded-full object-cover border-2 border-indigo-600 dark:border-cyan-400"
+            className="w-10 h-10 rounded-full object-cover border-2 border-purple-600 dark:border-cyan-400"
           />
-          <span className="text-2xl font-bold text-indigo-600 dark:text-cyan-400">SB</span>
+          <span className="text-2xl font-bold text-purple-700 dark:text-cyan-400">SB</span>
         </motion.a>
 
         {/* Desktop Menu */}
@@ -43,7 +43,7 @@ const Header = () => {
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-cyan-400 transition-colors duration-300 font-medium"
+              className="text-slate-600 dark:text-slate-300 hover:text-purple-700 dark:hover:text-cyan-400 transition-colors duration-300 font-medium"
             >
               {link.name}
             </motion.a>
@@ -68,7 +68,7 @@ const Header = () => {
                 key={index}
                 href={link.href}
                 onClick={toggleMenu}
-                className="py-2 text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-cyan-400 transition-colors duration-300 font-medium"
+                className="py-2 text-slate-600 dark:text-slate-300 hover:text-purple-700 dark:hover:text-cyan-400 transition-colors duration-300 font-medium"
               >
                 {link.name}
               </a>

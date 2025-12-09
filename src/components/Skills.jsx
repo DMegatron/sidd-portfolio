@@ -37,14 +37,14 @@ const Skills = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.2 }}
-              className="bg-white dark:bg-slate-900 p-6 rounded-2xl shadow-lg border border-indigo-100 dark:border-slate-800 hover:shadow-xl transition-shadow duration-300"
+              className="bg-white dark:bg-slate-900 p-6 rounded-2xl shadow-lg border border-purple-200 dark:border-slate-800 hover:shadow-xl transition-shadow duration-300"
             >
-              <h3 className="text-xl font-bold text-indigo-600 dark:text-cyan-400 mb-6 text-center">{category.title}</h3>
+              <h3 className="text-xl font-bold text-purple-700 dark:text-cyan-400 mb-6 text-center">{category.title}</h3>
               <div className="flex flex-wrap justify-center gap-3">
                 {category.skills.map((skill, i) => (
                   <span 
                     key={i}
-                    className="bg-indigo-50 dark:bg-slate-950 text-indigo-900 dark:text-cyan-100 px-4 py-2 rounded-full text-sm border border-indigo-200 dark:border-cyan-900/50 hover:bg-indigo-600 hover:text-white dark:hover:bg-cyan-600 dark:hover:text-white transition-colors duration-300 cursor-default font-medium"
+                    className="bg-purple-50 dark:bg-slate-950 text-purple-900 dark:text-cyan-100 px-4 py-2 rounded-full text-sm border border-purple-200 dark:border-cyan-900/50 hover:bg-purple-600 hover:text-white dark:hover:bg-cyan-600 dark:hover:text-white transition-colors duration-300 cursor-default font-medium"
                   >
                     {skill}
                   </span>

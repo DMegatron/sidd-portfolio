@@ -95,27 +95,27 @@ const Contact = () => {
 
             <div className="space-y-6">
               <div className="flex items-center">
-                <FaEnvelope className="text-indigo-600 dark:text-cyan-400 text-xl mr-4" />
+                <FaEnvelope className="text-purple-600 dark:text-cyan-400 text-xl mr-4" />
                 <a 
                   href="mailto:mrsiddharthabhunia@gmail.com" 
-                  className="text-slate-700 dark:text-slate-200 hover:text-indigo-600 dark:hover:text-cyan-400 font-medium"
+                  className="text-slate-700 dark:text-slate-200 hover:text-purple-700 dark:hover:text-cyan-400 font-medium"
                 >
                   mrsiddharthabhunia@gmail.com
                 </a>
               </div>
 
               <div className="flex items-center">
-                <FaPhone className="text-indigo-600 dark:text-cyan-400 text-xl mr-4" />
+                <FaPhone className="text-purple-600 dark:text-cyan-400 text-xl mr-4" />
                 <a 
                   href="tel:+918967164046" 
-                  className="text-slate-700 dark:text-slate-200 hover:text-indigo-600 dark:hover:text-cyan-400 font-medium"
+                  className="text-slate-700 dark:text-slate-200 hover:text-purple-700 dark:hover:text-cyan-400 font-medium"
                 >
                   +91 8967164046
                 </a>
               </div>
 
               <div className="flex items-center">
-                <FaMapMarkerAlt className="text-indigo-600 dark:text-cyan-400 text-xl mr-4" />
+                <FaMapMarkerAlt className="text-purple-600 dark:text-cyan-400 text-xl mr-4" />
                 <span className="text-slate-700 dark:text-slate-200 font-medium">
                   Bhekutia, Nandigram, Purba Medinipur, West Bengal, 721656
                 </span>
@@ -129,7 +129,7 @@ const Contact = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="md:w-1/2 bg-white dark:bg-slate-900 p-8 rounded-2xl shadow-lg border border-indigo-100 dark:border-slate-800"
+            className="md:w-1/2 bg-white dark:bg-slate-900 p-8 rounded-2xl shadow-lg border border-purple-200 dark:border-slate-800"
           >
             <form ref={formRef} onSubmit={handleSubmit} className="space-y-4">
 
@@ -143,7 +143,7 @@ const Contact = () => {
                   name="name"
                   value={formData.name}
                   onChange={handleChange}
-                  className="w-full bg-indigo-50 dark:bg-slate-950 border border-indigo-200 dark:border-slate-700 rounded-lg p-3"
+                  className="w-full bg-purple-50 dark:bg-slate-950 border border-purple-200 dark:border-slate-700 rounded-lg p-3"
                   placeholder="Your Name"
                   required
                 />
@@ -156,7 +156,7 @@ const Contact = () => {
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
-                  className="w-full bg-indigo-50 dark:bg-slate-950 border rounded-lg p-3"
+                  className="w-full bg-purple-50 dark:bg-slate-950 border rounded-lg p-3"
                   placeholder="Your Email"
                   required
                 />
@@ -169,7 +169,7 @@ const Contact = () => {
                   name="title"
                   value={formData.title}
                   onChange={handleChange}
-                  className="w-full bg-indigo-50 dark:bg-slate-950 border rounded-lg p-3"
+                  className="w-full bg-purple-50 dark:bg-slate-950 border rounded-lg p-3"
                   placeholder="Email Subject"
                   required
                 />
@@ -181,7 +181,7 @@ const Contact = () => {
                   name="message"
                   value={formData.message}
                   onChange={handleChange}
-                  className="w-full bg-indigo-50 dark:bg-slate-950 border rounded-lg p-3 h-32 resize-none"
+                  className="w-full bg-purple-50 dark:bg-slate-950 border rounded-lg p-3 h-32 resize-none"
                   placeholder="Your Message"
                   required
                 ></textarea>
@@ -213,7 +213,7 @@ const Contact = () => {
               <button 
                 type="submit" 
                 disabled={isSubmitting}
-                className="w-full bg-indigo-600 text-white font-bold py-3 rounded-lg hover:bg-indigo-700 transition disabled:opacity-50"
+                className="w-full bg-purple-600 text-white font-bold py-3 rounded-lg hover:bg-purple-700 transition disabled:opacity-50"
               >
                 {isSubmitting ? 'Sending...' : 'Send Message'}
               </button>
